@@ -1,0 +1,5 @@
+#!/bin/bash
+
+while read IP FQDN HOST SUBNET; do
+  scp hosts jack@${HOST}:~/
+done < machines

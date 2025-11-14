@@ -1,0 +1,5 @@
+# add this line to the bottom of each servers visudo file
+USERNAME ALL=(ALL) NOPASSWD: /bin/sed /etc/hosts
+
+# Replace USERNAME with your actual username.
+# This allows the remote change of the hostname later on.

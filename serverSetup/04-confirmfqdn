@@ -1,0 +1,3 @@
+while read IP FQDN HOST SUBNET; do
+  ssh -n jack@${IP} hostname --fqdn
+done < machines
