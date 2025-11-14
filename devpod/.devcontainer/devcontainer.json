@@ -1,0 +1,8 @@
+{
+  "name": "Kubernetes Admin",
+  "dockerFile": "Dockerfile",
+  "mounts": [
+    "source=${env:HOME}/.kube/config,target=/home/devpod/.kube/config,type=bind,readonly"
+  ],
+  "remoteUser": "devpod"
+}
