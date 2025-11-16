@@ -1,0 +1,6 @@
+{
+  "name": "Test DevPod",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "remoteUser": "vscode"
+}
+
